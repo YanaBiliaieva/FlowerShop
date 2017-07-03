@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="281.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.interlink.course.gui.ShopController">
+   <children>
+      <Button fx:id="createBouquetButton" layoutX="36.0" layoutY="236.0" mnemonicParsing="false" onAction="#createBouquet" prefHeight="25.0" prefWidth="538.0" text="Create Random Bouquet" />
+      <Label layoutX="39.0" layoutY="14.0" text="Total Number of Flowers in Bouquet:" underline="true" />
+      <Label layoutX="41.0" layoutY="125.0" text="Multicolor:" />
+      <Label layoutX="41.0" layoutY="146.0" text="Red:" />
+      <Label layoutX="42.0" layoutY="173.0" text="White:" />
+      <Label layoutX="41.0" layoutY="197.0" text="Yellow:" />
+      <Label fx:id="numberOfMulticolorFlowersLabel" layoutX="127.0" layoutY="125.0" />
+      <Label fx:id="numberOfRedFlowersLabel" layoutX="127.0" layoutY="146.0" />
+      <Label fx:id="numberOfWhiteFlowersLabel" layoutX="127.0" layoutY="173.0" />
+      <Label fx:id="numberOfYellowFlowersLabel" layoutX="127.0" layoutY="197.0" />
+      <Label layoutX="39.0" layoutY="100.0" text="Colors of Natural Flowers:" underline="true" />
+      <Label layoutX="420.0" layoutY="102.0" text="Material of Artificial Flowers:" underline="true" />
+      <Label layoutX="42.0" layoutY="42.0" text="From them Natural:" underline="true" />
+      <Label layoutX="213.0" layoutY="42.0" text="Artificial:" underline="true" />
+      <Label layoutX="420.0" layoutY="138.0" text="Paper:" />
+      <Label layoutX="420.0" layoutY="163.0" text="Metal:" />
+      <Label layoutX="420.0" layoutY="189.0" text="Glass:" />
+      <Label fx:id="numberOfPaperFlowersLabel" layoutX="475.0" layoutY="138.0" />
+      <Label fx:id="numberOfMetalFlowersLabel" layoutX="475.0" layoutY="163.0" />
+      <Label fx:id="numberOfGlassFlowersLabel" layoutX="475.0" layoutY="189.0" />
+      <Label layoutX="39.0" layoutY="70.0" text="Total price:" underline="true" />
+      <Label fx:id="numberOfNaturalFlowersLabel" layoutX="162.0" layoutY="42.0" />
+      <Label fx:id="numberOfArtificialFlowersLabel" layoutX="266.0" layoutY="42.0" />
+      <Label layoutX="245.0" layoutY="14.0" text="20 (static)" />
+      <Label fx:id="totalBouquetPriceLabel" layoutX="107.0" layoutY="70.0" />
+      <Label layoutX="193.0" layoutY="102.0" text="Numbers of different Natural Flowers:" underline="true" />
+      <Label layoutX="194.0" layoutY="127.0" text="Roses:" />
+      <Label layoutX="194.0" layoutY="148.0" text="Camomiles:" />
+      <Label fx:id="numberOfRosesFlowersLabel" layoutX="274.0" layoutY="127.0" />
+      <Label fx:id="numberOfCamomilesLabel" layoutX="274.0" layoutY="148.0" />
+   </children>
+</AnchorPane>
