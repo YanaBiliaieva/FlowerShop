@@ -1,20 +1,13 @@
 package com.interlink.course.natural;
 
-import com.interlink.course.Color;
 import com.interlink.course.Flower;
 
 /**
  * Created by Яна on 03.07.2017.
  */
-public class Natural extends Flower {
+public abstract class Natural implements Flower {
 
     private Color color;
-
-    protected Natural(Double price) {
-        super(price);
-        this.color=setColor();
-    }
-
 
     public Color getColor() {
         return color;
@@ -35,4 +28,5 @@ public class Natural extends Flower {
             default:color=Color.YELLOW;
         }return color;
     }
+
 }

@@ -4,14 +4,14 @@ import com.interlink.course.Flower;
 /**
  * Created by Яна on 03.07.2017.
  */
-public class Artificial extends Flower {
+public class Artificial implements Flower {
 
 
     private ArtificialMaterial material;
+    private Double price;
 
     public Artificial() {
-        super(20.0);
-        this.material=setMaterial();
+       getPrice();this.material=setMaterial();
 
     }
 
@@ -32,5 +32,10 @@ public class Artificial extends Flower {
                 default: material=ArtificialMaterial.PAPER;
 
         }return material;
+    }
+
+    @Override
+    public Double getPrice() {
+        return price=15.0;
     }
 }

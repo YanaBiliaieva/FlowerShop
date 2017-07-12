@@ -3,12 +3,10 @@ package com.interlink.course.gui;/**
  */
 
 import com.interlink.course.Bouquet;
-import com.interlink.course.Color;
-import com.interlink.course.Flower;
+import com.interlink.course.natural.Color;
 import com.interlink.course.artificial.Artificial;
 import com.interlink.course.artificial.ArtificialMaterial;
 import com.interlink.course.natural.Camomile;
-import com.interlink.course.natural.Natural;
 import com.interlink.course.natural.Rose;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
